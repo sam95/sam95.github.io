@@ -134,6 +134,21 @@ code {
   content: "\f0e1";
 }
 
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+.fa-code-fork:before {
+  content: "\f126";
+}
 .fa-gear:before,
 .fa-cog:before {
   content: "\f013";
@@ -697,7 +712,7 @@ display: none;
   border-color: #222;
 }
 
-.navbar-collapse #instagram,
+.navbar-collapse #h-square,
 .navbar-collapse #linkedin {
   display: none;
   }
@@ -766,10 +781,21 @@ display: none;
 
   #instagram,
   #linkedin,
+  #h-square,
+  #github,
+  #leetcode
   .fa-linkedin,
   .fa-instagram {
     display: inline-block;
   }
+  .fa-h-square,
+  .fa-leetcode {
+    display: inline-block;
+  }
+  .fa-github {
+    display: inline-block;
+  }
+
 
   .mini-jib {
     margin-bottom: 3em;
